@@ -85,3 +85,18 @@ path = ~/klipper-led_effect
 origin = https://github.com/julianschill/klipper-led_effect.git
 is_system_service = False
 
+[update_manager octoapp]
+type = git_repo
+channel = beta
+path = /home/chris/octoapp
+origin = https://github.com/crysxd/OctoApp-Plugin.git
+env = /home/chris/octoapp-env/bin/python
+requirements = requirements.txt
+install_script = install.sh
+managed_services = 
+	octoapp
+
+[announcements]
+subscriptions = 
+	octoapp.
+
