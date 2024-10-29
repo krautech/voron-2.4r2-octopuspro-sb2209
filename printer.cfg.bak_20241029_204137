@@ -1,6 +1,44 @@
 [include includes/*.cfg]
 [include mainsail.cfg]
 
+[safe_z_home]
+home_xy_position: 173.5, 175.0 # Center position
+z_hop: 10
+
+[scanner]
+#serial: /dev/serial/by-id/ # CHANGE ME FOR USB            
+#canbus_uuid:  # CHANGE ME FOR CANBUS
+#
+#   Visit the link below for help finding your device ID
+#   https://docs.cartographer3d.com/cartographer-probe/installation-and-setup/classic-installation/klipper-setup#finding-the-serial-or-uuid
+#        
+x_offset: 0                          
+y_offset: 15                         
+backlash_comp: 0.5
+calibration_method: touch
+sensor: cartographer
+sensor_alt: carto
+scanner_touch_z_offset: 0.05         
+mesh_runs: 2
+
+[bed_mesh]
+zero_reference_position: 173.5, 175.0    
+speed: 200
+horizontal_move_z: 5
+mesh_min: 35, 6
+mesh_max: 297.0, 300.0
+probe_count: 30, 30
+algorithm: bicubic
+
+[adxl345]
+cs_pin: cartographer:PA3
+spi_bus: spi1
+
+[resonance_tester]
+accel_chip: adxl345
+probe_points:
+    125, 125, 20
+
 [mcu]
 canbus_uuid: 6b62fbbd3a42
 #serial: /dev/serial/by-id/usb-Klipper_stm32h723xx_2B0041001851313434373135-if00

@@ -1,6 +1,7 @@
 [include includes/*.cfg]
 [include mainsail.cfg]
 
+
 [mcu]
 canbus_uuid: 6b62fbbd3a42
 #serial: /dev/serial/by-id/usb-Klipper_stm32h723xx_2B0041001851313434373135-if00
