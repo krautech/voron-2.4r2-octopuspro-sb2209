@@ -1,10 +1,10 @@
 {
     "Turtle_1": {
         "leg1": {
-            "spool_id": "",
-            "material": "",
-            "color": "#000000",
-            "weight": 0,
+            "spool_id": "15",
+            "material": "PETG",
+            "color": "#f2ff00",
+            "weight": 850.0,
             "command": null,
             "index": 1,
             "tool_loaded": false,
@@ -21,10 +21,10 @@
             "hub_loaded": false
         },
         "leg3": {
-            "spool_id": "",
-            "material": "",
+            "spool_id": "13",
+            "material": "ASA",
             "color": "#000000",
-            "weight": 0,
+            "weight": 185.66576550312243,
             "command": null,
             "index": 3,
             "tool_loaded": false,
