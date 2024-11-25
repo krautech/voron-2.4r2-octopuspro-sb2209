@@ -17,7 +17,7 @@
             "weight": 498.9247885148275,
             "command": null,
             "index": 2,
-            "tool_loaded": false,
+            "tool_loaded": true,
             "hub_loaded": true
         },
         "leg3": {
