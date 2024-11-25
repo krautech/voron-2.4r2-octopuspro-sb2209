@@ -14,10 +14,10 @@
             "spool_id": "14",
             "material": "PLA",
             "color": "#00b3ff",
-            "weight": 498.9247885148275,
+            "weight": 498.69407387733867,
             "command": null,
             "index": 2,
-            "tool_loaded": true,
+            "tool_loaded": false,
             "hub_loaded": true
         },
         "leg3": {
