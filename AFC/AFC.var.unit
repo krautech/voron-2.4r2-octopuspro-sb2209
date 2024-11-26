@@ -14,7 +14,7 @@
             "spool_id": "14",
             "material": "PLA",
             "color": "#00b3ff",
-            "weight": 498.69407387733867,
+            "weight": 498.313919076931,
             "command": null,
             "index": 2,
             "tool_loaded": false,
@@ -31,14 +31,14 @@
             "hub_loaded": true
         },
         "leg4": {
-            "spool_id": "",
-            "material": "",
+            "spool_id": "4",
+            "material": "ABS+",
             "color": "#000000",
-            "weight": 0,
+            "weight": 638.6703912360263,
             "command": null,
             "index": 4,
             "tool_loaded": false,
-            "hub_loaded": false
+            "hub_loaded": true
         }
     }
 }
