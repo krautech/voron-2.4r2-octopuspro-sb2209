@@ -8,23 +8,23 @@
             "command": null,
             "index": 1,
             "tool_loaded": false,
-            "hub_loaded": false
+            "hub_loaded": true
         },
         "leg2": {
             "spool_id": "14",
             "material": "PLA",
             "color": "#00b3ff",
-            "weight": 498.313919076931,
+            "weight": 497.93638603376746,
             "command": null,
             "index": 2,
-            "tool_loaded": false,
+            "tool_loaded": true,
             "hub_loaded": true
         },
         "leg3": {
             "spool_id": "13",
             "material": "ASA",
             "color": "#000000",
-            "weight": 185.28561070271473,
+            "weight": 185.24890610129603,
             "command": null,
             "index": 3,
             "tool_loaded": false,
@@ -34,11 +34,11 @@
             "spool_id": "4",
             "material": "ABS+",
             "color": "#000000",
-            "weight": 638.6703912360263,
+            "weight": 638.2902364356187,
             "command": null,
             "index": 4,
             "tool_loaded": false,
-            "hub_loaded": true
+            "hub_loaded": false
         }
     }
 }
