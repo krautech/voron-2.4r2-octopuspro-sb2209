@@ -4,7 +4,7 @@
             "spool_id": "15",
             "material": "PETG",
             "color": "#f2ff00",
-            "weight": 848.3592177985961,
+            "weight": 847.9790629981884,
             "command": null,
             "index": 1,
             "tool_loaded": false,
@@ -14,11 +14,11 @@
             "spool_id": "14",
             "material": "PLA",
             "color": "#00b3ff",
-            "weight": 497.93638603376746,
+            "weight": 497.55623123335977,
             "command": null,
             "index": 2,
             "tool_loaded": false,
-            "hub_loaded": true
+            "hub_loaded": false
         },
         "leg3": {
             "spool_id": "13",
